@@ -1,6 +1,6 @@
 package com.example.accessingdatajpa;
 
-import io.terapeak.janitor.annotation.Cleanup;
+import top.terapeak.janitor.annotation.Cleanup;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
