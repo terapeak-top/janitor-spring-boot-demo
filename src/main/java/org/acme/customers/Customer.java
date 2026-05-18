@@ -1,4 +1,4 @@
-package com.example.accessingdatajpa;
+package org.acme.customers;
 
 import top.terapeak.janitor.annotation.Cleanup;
 import jakarta.persistence.Entity;

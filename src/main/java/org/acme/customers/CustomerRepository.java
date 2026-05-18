@@ -1,4 +1,4 @@
-package com.example.accessingdatajpa;
+package org.acme.customers;
 
 import java.util.List;
 
