@@ -32,14 +32,12 @@ public class AccessingDataJpaApplication {
 			repository.findAll().forEach(customer -> {
 				logger.info(customer.toString());
 			});
-			logger.info("");
 
 			// fetch an individual customer by ID
 			Customer customer = repository.findById(1L);
 			logger.info("Customer found with findById(1L):");
 			logger.info("--------------------------------");
 			logger.info(customer.toString());
-			logger.info("");
 
 			// fetch customers by last name
 			logger.info("Customer found with findByLastName('Bauer'):");
@@ -47,7 +45,6 @@ public class AccessingDataJpaApplication {
 			repository.findByLastName("Bauer").forEach(bauer -> {
 				logger.info(bauer.toString());
 			});
-			logger.info("");
 		};
 	}
 
