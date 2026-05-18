@@ -8,3 +8,8 @@ It starts a sample application that creates dummy Customer entities and stores t
 
 ## Classes to check
 The main focus is on the Customer class and the [@Cleanup](https://github.com/terapeak-top/janitor/blob/main/janitor-core/src/main/java/top/terapeak/janitor/annotation/Cleanup.java) annotation
+
+## How to run the demo:
+```bash
+mvn spring-boot:run
+```
